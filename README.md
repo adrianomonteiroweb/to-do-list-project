@@ -1,16 +1,15 @@
-# Boas vindas ao repositório do projeto Lista de Tarefas!
+# Boas vindas ao repositório do projeto To-do List!
 
-# Habilidades
+# Habilidades:
 
-- Manipular CSS
-
-- Manipular Javascript
+- Manipular CSS.
+- Manipular DOM com Javascript.
 
 --- 
 
 ## O que foir desenvolvido.
 
-- Uma lista de tarefas usando `HTML`, `CSS` e `JavaScript`.
+- Uma lista de tarefas usando `HTML`, `CSS` e `JavaScript` manipulando DOM.
 
 ## Linter
 
@@ -76,4 +75,6 @@ Após executar um dos dois comandos acima, será aberta uma janela de navegador 
 
 ### Resultado do projeto:
 
-![Projeto ao final:](./to-do-list.jpeg)
+<div>
+  <img src="./images/to-do-list.gif" alt="To-do List" />
+</div>
