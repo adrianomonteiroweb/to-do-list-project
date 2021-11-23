@@ -1,91 +1,75 @@
 * {
-  margin: 0;
   border: 0;
+  margin: 0;
   padding: 0;
 }
 
 body {
-  text-align: center;
-  background-color: rgb(205, 224, 222);
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-  background-color: rgba(145, 81, 153, 0.815);
-  margin: 10px;
-  padding: 10px;
-  border-radius: 2%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url('./images/taskMany.png');
+  background-size: cover;
+  border-radius: 4px;
+  height: 150px;
+  margin-top: 20px;
+  width: 280px;
 }
 
-h1 {
-  margin: 5px;
+header h1 {
   color: aliceblue;
-}
-
-p {
-  margin: 5px;
-  color: aliceblue;
+  margin-top: 110px;
+  margin-left: 5px;
 }
 
 #tasks {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  text-align: center;
-  background-color: rgb(239, 245, 244);
-  border-radius: 2%;
 }
 
 input {
-  margin: 5px;
+  background-color: transparent;
   border: solid 1px rgb(123, 95, 235);
-  border-radius: 10%;
-  width: 150px;
+  border-radius: 4px;
+  color: rgb(82, 79, 79);
   height: 20px;
   text-align: center;
-  background-color: transparent;
-  color: rgb(82, 79, 79);
+  width: 280px;
 }
 
 button {
-  margin: 1px;
-  padding: 5px;
-  border-radius: 10%;
-  background-color: rgba(145, 81, 153, 0.815);
+  background-color: rgb(123, 95, 235);
+  border-radius: 4px;
   color: rgb(239, 245, 244);
+  margin-top: 5px;
+  padding: 5px;
 }
 
 ol {
   margin-top: 20px;
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 li {
-  margin: 5px;
-  text-align: left;
   background-color: transparent;
   color: rgb(82, 79, 79);
+  margin: 5px;
+  text-align: left;
 }
 
 #tasks-items {
-  margin: 10px;
-  padding: 5px;
-  width: 150px;
-  border-radius: 5%;
   background-color:transparent;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  width: 280px;
 }
 
 .selected {
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(16, 218, 245, 0.63);
 }
 
 .completed {
@@ -93,7 +77,25 @@ li {
 }
 
 #general-controls {
-  margin-top: 20px;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+}
+
+#general-controls .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.buttons button {
+  margin: 4px;
+}
+
+#general-controls #move {
+  display: flex;
+  flex-direction: column;
 }
 
 .icons {

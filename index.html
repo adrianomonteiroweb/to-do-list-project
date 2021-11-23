@@ -4,31 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Minha Lista</title>
+  <title>To-do List</title>
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
   <header>
-    <h1>Minha Lista de Tarefas</h1>
-    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <h1>To-do</h1>
   </header>  
     <section id="tasks">
       <input id="texto-tarefa" type="text">
       <br />
-      <button id="criar-tarefa">Criar Tarefa</button>
+      <button id="criar-tarefa">New Task</button>
       <section id="tasks-items">
         <ol id="lista-tarefas"></ol>
       </section>
     </section>
     <section id="general-controls">
-      <button id="apaga-tudo">Apagar Tudo</button>
-      <button id="remover-finalizados">Apagar Finalizados</button>
-      <button id="remover-selecionado">Apagar</button>
-      <button id="salvar-tarefas">Salvar Alterações</button>
+      <div class="buttons">
+        <button id="apaga-tudo">Delete All</button>
+        <button id="remover-finalizados">Delete Finelized</button>
+        <button id="remover-selecionado">Delete</button>
+        <button id="salvar-tarefas">Save Editions</button>
+      </div>
       <section id="move">
-        <button id="mover-baixo" class="mover-baixo"><img class="icons" src="images/down.png" alt="Mover Para Baixo"></button>
         <button id="mover-cima" class="mover-cima"><img class="icons" src="images/up.png" alt="Mover Para Cima"></button>
+        <button id="mover-baixo" class="mover-baixo"><img class="icons" src="images/down.png" alt="Mover Para Baixo"></button>
       </section>
     </section>
 </body>
