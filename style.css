@@ -32,9 +32,9 @@ header h1 {
   margin-top: 20px;
 }
 
-input {
+#tasks input {
   background-color: transparent;
-  border: solid 1px rgb(123, 95, 235);
+  border: solid 1px #403294;
   border-radius: 4px;
   color: rgb(82, 79, 79);
   height: 20px;
@@ -43,33 +43,34 @@ input {
 }
 
 button {
-  background-color: rgb(123, 95, 235);
+  background-color: #403294;
   border-radius: 4px;
   color: rgb(239, 245, 244);
   margin-top: 5px;
   padding: 5px;
 }
 
-ol {
-  margin-top: 20px;
-  width: 100%;
+#tasks-items {
+  background-color:transparent;
+  display: flex;
+  justify-content: center;
+  width: 280px;
 }
 
-li {
+#tasks-items ol {
+  margin-top: 20px;
+  width: 80%;
+}
+
+ol li {
   background-color: transparent;
   color: rgb(82, 79, 79);
   margin: 5px;
   text-align: left;
 }
 
-#tasks-items {
-  background-color:transparent;
-  text-align: center;
-  width: 280px;
-}
-
 .selected {
-  background-color: rgba(16, 218, 245, 0.63);
+  background-color: #a7ffff;
 }
 
 .completed {
